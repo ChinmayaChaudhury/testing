@@ -23,6 +23,7 @@ sap.ui.define([
 			this.oListSelector = new ListSelector();
 			this._oErrorHandler = new ErrorHandler(this);
 
+var x=10;
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
 
